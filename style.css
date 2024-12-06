@@ -580,7 +580,9 @@ html {
     }
 
 
-    .Proj-content .first {}
+    .Proj-content .first {
+        height: 70%;
+    }
 
 
 
