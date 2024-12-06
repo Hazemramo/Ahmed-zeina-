@@ -124,6 +124,7 @@ html {
     position: absolute;
     z-index: -1;
 }
+
 .main-img-two {
     display: none;
 }
@@ -859,8 +860,29 @@ html {
 
 
     .top-content {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         &::after {
             display: none;
+        }
+    }
+
+
+    .text-content .btn{
+        position: absolute;
+        bottom: 80px;
+    }
+
+
+    .landing-section .bot-content {
+        justify-content: center;
+        text-align: center;
+        .btn {
+            margin-right: 0;
         }
     }
 
@@ -898,7 +920,7 @@ html {
 
     .main-img-two {
         top: 0;
-        scale: 2.5;
+        scale: 9.5;
         position: absolute;
         z-index: 3;
         display: block;
@@ -907,6 +929,7 @@ html {
 
     .my_projects p {
         width: 100%;
+        text-align: center;
         color: #545454;
     }
 
