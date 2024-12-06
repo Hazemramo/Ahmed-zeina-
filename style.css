@@ -834,6 +834,19 @@ html {
 
 @media (max-width:992px) {
 
+
+
+    .project-div {
+
+        .Proj-content .last-line {
+            right: 5%;
+        }
+
+        .Proj-content .circle-line {
+            right: 5%;
+        }
+    }
+
     .project-div .Proj-content {
         padding: 0 25px;
     }
