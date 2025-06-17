@@ -473,6 +473,7 @@ html {
 
 .my-skills .animation-content {
     flex-wrap: wrap;
+    padding: 0 50px;
 
 
 }
