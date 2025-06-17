@@ -154,6 +154,7 @@ html {
 
     &:hover {
         text-decoration: underline;
+        color: #5151ff;
     }
 }
 
@@ -375,7 +376,10 @@ html {
     &:hover {
         .btn {
             color: rgb(255, 255, 255);
-            background-color: rgb(95, 95, 95);
+            background-color: #5151ff;
+            border: 2px solid #5151ff;
+
+
         }
 
 
@@ -491,6 +495,13 @@ html {
     animation: scrollAnimation linear;
     animation-timeline: view();
     animation-range: entry 0;
+    transition: 0.2s;
+    &:hover {
+        border-top:#5151ff solid 1px ;
+        border-right:#5151ff solid 5px ;
+        border-bottom:#5151ff solid 5px ;
+        padding: 42px 40px 40px 45px ;
+    }
 
     h5 {
         color: #787878;
@@ -789,6 +800,7 @@ html {
 .side-bar .message {
     padding: 11px 20px 55px;
 }
+
 
 
 
